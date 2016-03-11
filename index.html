@@ -11,6 +11,12 @@
       <a-curvedimage src="images/ui/3.png" radius="5.7" theta-length="180" height="9"
                      rotation="0 90 0" scale="1.2 1.2 1.2"></a-curvedimage>
 
+      <a-entity position="0 1.8 4">
+       <a-camera id="camera">
+         <a-cursor color="#4CC3D9"></a-cursor>
+       </a-camera>
+      </a-entity>
+
       <a-box id="orange-cube" position="0 3.5 -2" rotation="30 30 0" width="2" depth="2" height="2" color="#F16745" roughness="0.8">
        <a-event name="mouseenter" scale="3 1 1" color="#FFC65D"></a-event>
        <a-event name="mouseenter" target="#shadow" scale="3 2 2"></a-event>
